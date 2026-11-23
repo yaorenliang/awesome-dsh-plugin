@@ -1,0 +1,6 @@
+url: https://github.com/yaorenliang/dsh-notify
+name: yaorenliang/dsh-notify
+category: notify
+description:
+  en: One notification plugin for both channels, decided once on the Host. Browser system notifications and Bark phone push share a single classifier over five event kinds (completed, failed, interrupted, approval, question), so the two channels cannot drift. The title carries a status mark and the session name, the body is the prompt you last typed. Subagent sessions are silent by default, the session you are reading can stay quiet, and a stale presence report never hides an approval.
+  zh: 浏览器系统通知与手机 Bark 推送由同一个插件管，事件在宿主侧只判定一次，五个事件类型（完成、失败、中断、请求授权、等待回答）共用同一个分类器，两个通道因此不会漂移。标题是「状态标记 + 会话名」，正文是你最后一次提问。子 agent 会话默认静默，你正在读的会话可设为不打扰，过期的「在线」报告不会吞掉授权提醒。
